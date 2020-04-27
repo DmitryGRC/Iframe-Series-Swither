@@ -1,3 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<title>Sample</title>
+	<meta charset="utf-8">
+	<style>
+		.grid{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        ul{list-style:none}
+        label{display:inline-block; width:110px; height:40px; text-align:center; color:#ffffff; background:#161616; font: 16px/40px Arial; font-weight:bold}
+        input:checked~label{background:#415F92; color:#fff}
+        input[type="radio"]{
+            display:none
+        }
+        .liver {display: inline-block;}
+    </style>
+</head>
+<body>
+	<div class="suka"><iframe id=audio src="https://www.protonvideo.to/iframe/ad8c1e8a3604d474f9f9cb98f0936fca/" width="100%" height="620" frameborder="0" scrolling="no" allowfullscreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+            
+            <div class="grid">
+                <div class="suka">        
+                    <ul style="text-align: center;">
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/ad8c1e8a3604d474f9f9cb98f0936fca/" checked>
+                            <label for="https://www.protonvideo.to/iframe/ad8c1e8a3604d474f9f9cb98f0936fca/">1 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/44dd65f1aafee1ceb460d33fce5b5af6/">
+                            <label for="https://www.protonvideo.to/iframe/44dd65f1aafee1ceb460d33fce5b5af6/">2 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/f9e77feff97edf77011c12ddb808ea6e/">
+                            <label for="https://www.protonvideo.to/iframe/f9e77feff97edf77011c12ddb808ea6e/">3 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/027f02dfeef17110ef01789bacf63bbe/">
+                            <label for="https://www.protonvideo.to/iframe/027f02dfeef17110ef01789bacf63bbe/">4 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/d7b31f36568fea901bd3f2e89abcf60e/">
+                            <label for="https://www.protonvideo.to/iframe/d7b31f36568fea901bd3f2e89abcf60e/">5 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/1736a6ee05857e3e7a5c0a413d116000/">
+                            <label for="https://www.protonvideo.to/iframe/1736a6ee05857e3e7a5c0a413d116000/">6 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/cad1018cd0540364d42d4d11ee94072d/">
+                            <label for="https://www.protonvideo.to/iframe/cad1018cd0540364d42d4d11ee94072d/">7 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/41547789c16842b63e023bf22575c8f3/">
+                            <label for="https://www.protonvideo.to/iframe/41547789c16842b63e023bf22575c8f3/">8 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/50bdf27a9d3ffb277181387a5ccd85ee/">
+                            <label for="https://www.protonvideo.to/iframe/50bdf27a9d3ffb277181387a5ccd85ee/">9 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/8fe0bc1581493fbc2af624e623e34efc/">
+                            <label for="https://www.protonvideo.to/iframe/8fe0bc1581493fbc2af624e623e34efc/">10 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/381354f20127f6369125aaacd460b7c9/">
+                            <label for="https://www.protonvideo.to/iframe/381354f20127f6369125aaacd460b7c9/">11 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/8009026d83cfc6281495b4381ea33494/">
+                            <label for="https://www.protonvideo.to/iframe/8009026d83cfc6281495b4381ea33494/">12 серия</label>
+                        </li>
+                        <li class="liver">
+                            <input type="radio" name="radio" id="https://www.protonvideo.to/iframe/45f9eae6662a4dc96d2c2e08c793c2dc/">
+                            <label for="https://www.protonvideo.to/iframe/45f9eae6662a4dc96d2c2e08c793c2dc/">13 серия</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    <script>
+        var alles_li = document.getElementsByTagName("input");
         for(var i = 0; i < alles_li.length; i++){
         alles_li[i].onclick = function(){
             audio.src = this.id;
